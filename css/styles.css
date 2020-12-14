@@ -1,4 +1,5 @@
 html { scroll-behavior:smooth; } /*Animacion de scroll al click link*/
-body  {
+header  {
     background: pink;
+    color: teal;
 }
