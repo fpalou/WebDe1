@@ -1,0 +1,4 @@
+html { scroll-behavior:smooth; } /*Animacion de scroll al click link*/
+body  {
+    background: pink;
+}
