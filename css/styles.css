@@ -10,8 +10,21 @@ body {
 }
 
 header  {
-    background: pink;
-    color: teal;
+    background-color:#2C2F33;
+    color: white;
+    display:flex ;
+    justify-content: space-between;
+    height: 90px;
+}
+figure{
+    margin: 0;
+}
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
 }
 h1,
 h2,
@@ -65,12 +78,24 @@ h1 strong {
     background: #99AAB5;
 }
 
-.header{
-    background-color:#2C2F33;
-    color: white;
+.menu{ /* Desde aqui empezaremos a inherit hasta el height hasta llegar a nuestro objetivo, a */
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+
+}
+.header ol li{
+    height: inherit;
 }
 .header a{
     color: white;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
  /*HACK sdad*/
