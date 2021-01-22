@@ -14,7 +14,7 @@ header  {
     color: white;
     display:flex ;
     justify-content: space-between;
-    height: 90px;
+    height: 70px;
 }
 figure{
     margin: 0;
@@ -41,7 +41,8 @@ h1{
     line-height: 150%;
     letter-spacing: -.2px;
     color: white;
-    margin:0;
+    margin:10;
+
     /* text-transform: uppercase; */
     /* text-decoration: underline; */
 }
@@ -55,6 +56,17 @@ h1 strong {
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: #2C2F33;
+    display: flex;
+    flex-direction: column;
+    
+}
+.hero h1{
+    align-self: flex-start;
+}
+.purplebar{ /* Con este pe3dazo bajamos nada mas la barra morada :) pero seguimos usando de referencia el felxbox de hero  USANDO MARGIN TOP AUTO*/
+   margin-top: auto;
+    width: max-content;
+    height:10px;
 }
 .project{
     /* border-top: 10px solid red; */
@@ -97,5 +109,15 @@ h1 strong {
     display: flex;
     align-items: center;
     padding: 0 10px;
+}
+.footer{
+    background-color: #1b2127 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer img{
+    vertical-align: middle;
 }
  /*HACK sdad*/
