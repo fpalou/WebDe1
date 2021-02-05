@@ -2,6 +2,8 @@
 gris claro = #626262;
 background gris = #1b2127; 
 celeste =  #026fff;
+#2C2F33
+#99AAB5
 */
 html { scroll-behavior:smooth; } /*Animacion de scroll al click link*/
 body {
@@ -49,6 +51,15 @@ h1{
 h1 strong {
     color: #e74c3c;
 }
+h2 {
+    color: #e74c3c;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    margin-bottom: 44.26px;
+    
+}
 .hero{
     height: 300px;
     background-image: url('../Images/hero.png');
@@ -75,19 +86,44 @@ h1 strong {
     border-style: solid;
     border-radius: 8px;
     margin-bottom: 15px;
-    margin: 10px;
     padding: 20px;
     background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 
 }
+.project strong{
+    font-family: 'Fjalla One', sans-serif;
+    font
+}
+.project__title{
+    font-size: 30px;
+    margin-bottom: 10px ;
+    margin-top: 0;
+}
+.project__course{
+    margin: 10px 0;
+}
+.project__date,
+.project__url{
+margin: 10px 0;
+}
+.project__description{
+    font-size: 20px;
+}
+
 .project__details{
-    width: 500px;
+    width: 400px;
 }
 .project__image--container{
-    width: 500px;
+   
 }
 .portfolio {
-    background: #99AAB5;
+    background: #476080;
+    padding: 30px;
+    
 }
 
 .menu{ /* Desde aqui empezaremos a inherit hasta el height hasta llegar a nuestro objetivo, a */
