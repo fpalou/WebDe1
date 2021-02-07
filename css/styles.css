@@ -118,6 +118,7 @@ margin: 10px 0;
     width: 400px;
 }
 .project__image--container{
+    width: 400px;
    
 }
 .portfolio {
@@ -125,6 +126,47 @@ margin: 10px 0;
     padding: 30px;
     
 }
+.event__list--title{
+    margin-left: 20px;
+}
+.event__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.event{
+    margin: 10px;
+    width: 400px;
+    background: rgb(245, 243, 242);
+    
+}
+
+.event__image--container{
+width: 400px;
+}
+.event__image{
+    
+    border-radius: 10px;
+}
+.event__details{
+    margin: 20px;
+    margin-top: -40px;
+    position:relative;
+    padding: 20px 40px;
+    background: white;
+    text-align: center;
+}
+.event__description{
+    text-align: left;
+}
+.event__url{
+    border: 1px solid violet;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: violet ;
+    border-radius: 5px;
+}
+
 
 .menu{ /* Desde aqui empezaremos a inherit hasta el height hasta llegar a nuestro objetivo, a */
     height: inherit;
